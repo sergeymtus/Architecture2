@@ -11,4 +11,5 @@ import ru.netology.nmedia.entity.PostRemoteKeyEntity
 abstract class AppDb : RoomDatabase() {
     abstract fun postDao(): PostDao
     abstract fun postRemoteKeyDao(): PostRemoteKeyDao
+
 }
